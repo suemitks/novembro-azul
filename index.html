@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Novembro Azul: informações confiáveis sobre câncer de próstata, sinais, fatores de risco e cuidados com a saúde do homem.">
+    <title>Novembro Azul | Saúde do Homem</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: "#102D50",
+                        bluehealth: "#1769AA",
+                        lightblue: "#EAF4FC"
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- CABEÇALHO -->
+    <header class="bg-navy text-white">
+        <nav class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+            <a href="#" class="font-bold text-xl">
+                Novembro<span class="text-sky-300">Azul</span>
+            </a>
+
+            <a href="#informacoes" class="text-sm hover:text-sky-300 transition">
+                Saiba mais
+            </a>
+        </nav>
+    </header>
+
+    <!-- DESTAQUE -->
+    <section class="bg-gradient-to-br from-navy to-bluehealth text-white">
+        <div class="max-w-6xl mx-auto px-6 py-20 text-center">
+
+            <span class="inline-block bg-white/10 px-4 py-2 rounded-full text-sm mb-6">
+                💙 Campanha Novembro Azul
+            </span>
+
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                Cuidar da saúde também é coisa de homem.
+            </h1>
+
+            <p class="text-lg md:text-xl text-blue-100 max-w-2xl mx-auto mb-8">
+                Informação, atenção aos sinais do corpo e diálogo com
+                profissionais de saúde são importantes para cuidar de você.
+            </p>
+
+            <a href="#informacoes"
+                class="inline-block bg-white text-navy font-bold px-8 py-3 rounded-full hover:bg-sky-100 transition">
+                Conheça as informações
+            </a>
+        </div>
+    </section>
+
+    <!-- INTRODUÇÃO -->
+    <section class="max-w-4xl mx-auto px-6 py-14 text-center">
+        <h2 class="text-3xl font-bold text-navy mb-5">
+            Por que falar sobre isso?
+        </h2>
+
+        <p class="text-slate-600 leading-relaxed">
+            O câncer de próstata é um dos tipos de câncer mais frequentes
+            entre os homens. Falar sobre o assunto ajuda a combater o
+            preconceito, ampliar o conhecimento e incentivar a procura
+            pelos serviços de saúde quando necessário.
+        </p>
+    </section>
+
+    <!-- CARDS -->
+    <main id="informacoes" class="max-w-6xl mx-auto px-6 pb-16">
+
+        <div class="text-center mb-10">
+            <h2 class="text-3xl font-bold text-navy">
+                Informação é uma forma de cuidado
+            </h2>
+            <p class="text-slate-500 mt-3">
+                Explore os assuntos e consulte as fontes oficiais.
+            </p>
+        </div>
+
+        <div id="cards" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        </div>
+
+    </main>
+
+    <!-- ATENÇÃO -->
+    <section class="bg-lightblue py-14 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+
+            <h2 class="text-2xl font-bold text-navy mb-5">
+                Não ignore os sinais do seu corpo.
+            </h2>
+
+            <p class="text-slate-700 leading-relaxed mb-6">
+                Alterações urinárias ou presença de sangue na urina
+                precisam de avaliação profissional. Esses sintomas
+                podem ter diversas causas e não significam necessariamente
+                câncer.
+            </p>
+
+            <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-prostata" target="_blank"
+                rel="noopener noreferrer"
+                class="inline-block bg-bluehealth text-white px-7 py-3 rounded-full font-semibold hover:bg-navy transition">
+                Consulte o Ministério da Saúde
+            </a>
+
+        </div>
+    </section>
+
+    <!-- ONDE BUSCAR AJUDA -->
+    <section class="max-w-5xl mx-auto px-6 py-16 text-center">
+
+        <div class="text-4xl mb-4">🏥</div>
+
+        <h2 class="text-3xl font-bold text-navy mb-5">
+            Onde buscar orientação?
+        </h2>
+
+        <p class="text-slate-600 max-w-2xl mx-auto leading-relaxed mb-7">
+            Procure a Unidade Básica de Saúde (UBS) mais próxima.
+            A equipe poderá avaliar suas necessidades, esclarecer
+            dúvidas e orientar sobre os cuidados adequados.
+        </p>
+
+        <a href="https://www.gov.br/saude/pt-br" target="_blank" rel="noopener noreferrer"
+            class="text-bluehealth font-bold underline">
+            Acesse o portal do Ministério da Saúde →
+        </a>
+
+    </section>
+
+    <!-- FONTES -->
+    <section class="bg-slate-100 py-12 px-6">
+        <div class="max-w-4xl mx-auto">
+
+            <h2 class="text-2xl font-bold text-navy mb-6 text-center">
+                Fontes e referências
+            </h2>
+
+            <div class="space-y-4 text-sm text-slate-600">
+
+                <p>
+                    <strong>Ministério da Saúde:</strong>
+                    <a class="text-bluehealth underline"
+                        href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-prostata"
+                        target="_blank" rel="noopener noreferrer">
+                        Câncer de próstata
+                    </a>
+                </p>
+
+                <p>
+                    <strong>INCA:</strong>
+                    <a class="text-bluehealth underline"
+                        href="https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/prostata/versao-para-populacao"
+                        target="_blank" rel="noopener noreferrer">
+                        Câncer de próstata – informações para a população
+                    </a>
+                </p>
+
+                <p>
+                    <strong>INCA e Ministério da Saúde:</strong>
+                    <a class="text-bluehealth underline"
+                        href="https://www.gov.br/inca/pt-br/assuntos/noticias/2023/ministerio-da-saude-recomenda-o-nao-rastreamento-populacional-do-cancer-de-proposta"
+                        target="_blank" rel="noopener noreferrer">
+                        Orientações sobre rastreamento
+                    </a>
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="bg-navy text-white text-center py-8 px-6">
+        <p class="font-semibold text-lg mb-2">
+            Novembro Azul 💙
+        </p>
+
+        <p class="text-sm text-blue-200">
+            Informação e conscientização para uma vida mais saudável.
+        </p>
+
+        <p class="text-xs text-blue-300 mt-5">
+            Material educativo. Não substitui avaliação de profissionais de saúde.
+        </p>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        const informacoes = [
+            {
+                emoji: "🩺",
+                titulo: "O que é o câncer de próstata?",
+                descricao: "Entenda o que é a próstata e conheça melhor essa doença.",
+                link: "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-prostata",
+                botao: "Entenda a doença"
+            },
+            {
+                emoji: "⚠️",
+                titulo: "Sinais e sintomas",
+                descricao: "Conheça alterações que merecem atenção e avaliação médica.",
+                link: "https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/prostata/versao-para-populacao",
+                botao: "Conheça os sinais"
+            },
+            {
+                emoji: "🔎",
+                titulo: "Exames e rastreamento",
+                descricao: "Saiba a diferença entre investigação diagnóstica e exames de rotina.",
+                link: "https://www.gov.br/inca/pt-br/assuntos/noticias/2023/ministerio-da-saude-recomenda-o-nao-rastreamento-populacional-do-cancer-de-proposta",
+                botao: "Saiba mais"
+            },
+            {
+                emoji: "🏥",
+                titulo: "Onde buscar ajuda?",
+                descricao: "Descubra onde procurar orientação e atendimento pelo SUS.",
+                link: "https://www.gov.br/saude/pt-br",
+                botao: "Acesse o SUS"
+            }
+        ];
+
+        const container = document.getElementById("cards");
+
+        informacoes.forEach((item) => {
+            const card = document.createElement("article");
+
+            card.className =
+                "bg-white rounded-2xl p-6 shadow-sm border border-slate-100 " +
+                "hover:shadow-lg hover:-translate-y-1 transition duration-300 " +
+                "flex flex-col";
+
+            card.innerHTML = `
+        <div class="text-4xl mb-5">${item.emoji}</div>
+
+        <h3 class="text-xl font-bold text-navy mb-3">
+          ${item.titulo}
+        </h3>
+
+        <p class="text-slate-500 text-sm leading-relaxed mb-6 flex-grow">
+          ${item.descricao}
+        </p>
+
+        <a href="${item.link}"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="text-bluehealth font-bold text-sm hover:underline">
+          ${item.botao} →
+        </a>
+      `;
+
+            container.appendChild(card);
+        });
+    </script>
+
+</body>
+
+</html>
